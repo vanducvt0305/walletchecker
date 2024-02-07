@@ -110,7 +110,6 @@ const App = () => {
         <button onClick={handleProcessWallets} className='submit-btn btn'>Check</button>
         {/* Hiển thị danh sách địa chỉ ví */}
       </div>
-      <h1 style={cardHeaderStyle}>Check Balance</h1>
       
       <div>
         {Object.entries(groupedData).map(([walletAddress, chains]) => (
